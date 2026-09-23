@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+      <img src="logo.svg" alt="Snap" class="logo">
+      <button class="menu-btn">
+        <img src="icon-hamburger.svg" alt="Menu">
+      </button>
+  </header>
+  <main class="main-content">
+    <picture>
+      <source media="(min-width:768px)" srcset="image-hero-desktop.png">
+      <img src="image-hero-mobile.png" class="hero-image" alt="">
+    </picture>
+    <h1>Make remote work</h1>
+    <p>Get your team in sync,no matter your location.Streamline processes.create team rituals,and watch productivity soar.</p>
+    <button>Learn more</button>
+    <div class="client-logo">
+      <img src="client-databiz.svg" class="client-logo" alt="Databiz">
+      <img src="client-audiophile.svg" class="client-logo" alt="Audio-phile">
+      <img src="client-meet.svg" class="client-logo" alt="Meet">
+      <img src="client-maker.svg" class="client-logo" alt="Maker">
+    </div>
+  </main>
+  <nav class="mobile-menu">
+    <button class="close-menu">
+      <img src="icon-close-menu.svg" alt="Close">
+    </button>
+    <ul>
+      <li class="nav-item">
+        <button class="dropdown-toggle">
+          Features 
+          <img src="icon-arrow-down.svg" class="dropdown-arrow" alt="">
+        </button>
+        <ul class="features-menu">
+          <li>
+            <img src="icon-todo.svg" alt="">
+            Todo List
+          </li>
+          <li>
+            <img src="icon-calendar.svg" alt="">
+            Calender 
+          </li>
+          <li>
+            <img src="icon-reminders.svg" alt="">
+            Reminders
+          </li>
+          <li>
+            <img src="icon-planning.svg" alt="">
+            Planning
+          </li>
+        </ul>
+      </li>
+        <li class="nav-item">
+        <button class="dropdown-toggle">
+          Company 
+          <img src="icon-arrow-down.svg" class="dropdown-arrow" alt="">
+        </button>
+        <ul class="company-menu">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ul>
+        </li>
+        <li><a href="#">Careers</a>
+        </li>
+        <li><a href="#">About</a>
+        </li>
+        <li class="auth-link"><a href="#">Login</a>
+        </li>
+        <li class="register-link"><a href="#">Register</a></li>
+    </ul>
+  </nav>
+  <div class="overlay">
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
